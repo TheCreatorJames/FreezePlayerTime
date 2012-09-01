@@ -1,0 +1,15 @@
+name: FreezePlayerTime
+version: 0.13
+main: net.CreatorJames.PlayerTime.Main
+
+commands:
+   fptime:
+      description: Freezes Specific Player Times
+      usage: /fptime [player] [time]
+      permission: FreezePlayerTime.FPT
+      permission-message: You don't have permission.
+   clearfptime:
+      description: Freezes Specific Player Times
+      usage: /clearfptime
+      permission: FreezePlayerTime.FPT
+      permission-message: You don't have permission.
